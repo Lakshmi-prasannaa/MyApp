@@ -1,5 +1,5 @@
 class PeopleController < ApplicationController
   def index
-  	puts "hello world"
+  	puts "hope this works with git"
   end
 end
