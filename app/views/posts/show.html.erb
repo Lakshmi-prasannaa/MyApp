@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @post.name %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @post.content %>
+</p>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-559bb311518db07b" async="async"></script>
+
+<div class="addthis_sharing_toolbox"></div>
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %> |
+
+<%#= social_share_button_tag(@post.name,:popup => "true",:url => "moviedreamz.com/sign_in",:image => "http://s3-us-west-2.amazonaws.com/sciencetuts/courses/41/THE_HUMAN_EYE_AND_THE_COLOURFUL_WORLD_medium.jpg?1408692128", desc: "The summary of page") %>
+
+<%#= render_shareable :buttons=> ['twitter', 'facebook'] %>
+
+
+<%i=3.7%>
+<%j=20%>
+<%@result = i*j%>
+<%=i%>/5 |
+<%=@result%>/100
