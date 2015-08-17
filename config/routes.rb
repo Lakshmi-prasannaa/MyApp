@@ -1,4 +1,5 @@
 MyApp::Application.routes.draw do
+  get "people/index"
   # get "home/index"
   # get "posts/index"
    #resources :posts
